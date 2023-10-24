@@ -6,6 +6,11 @@ cursor: pointer;
 background-color: #9CE4F9;
 }
 
+
+body {
+  background-color: beige;
+}
+
 .square {
       background-color: #9CE4F9;
     }
@@ -21,8 +26,4 @@ background-color: #9CE4F9;
 
 .text {
   font-family: monospace;
-}
-
-body {
-  background-color: beige;
 }
