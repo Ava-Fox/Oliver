@@ -2,12 +2,16 @@ html {
 width: 100%;
 height: 100%;
 box-sizing: border-box; 
-cursor: pointer;
+cursor: url("images/cursor_small.png"), pointer;
 background-color: #9CE4F9;
 }
 
 
 body {
+  background-color: beige;
+}
+
+nav {
   background-color: beige;
 }
 
@@ -27,3 +31,4 @@ body {
 .text {
   font-family: monospace;
 }
+
