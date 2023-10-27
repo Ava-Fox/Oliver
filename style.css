@@ -2,8 +2,17 @@ html {
 width: 100%;
 height: 100%;
 box-sizing: border-box; 
-cursor: pointer;
-background-color: #9CE4F9;
+cursor: url("images/cursor_small.png"), pointer;
+background-color: beige;
+}
+
+
+body {
+  background-color: beige;
+}
+
+nav {
+  background-color: beige;
 }
 
 .square {
@@ -23,6 +32,17 @@ background-color: #9CE4F9;
   font-family: monospace;
 }
 
-body {
+.body {
   background-color: beige;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;;
 }
